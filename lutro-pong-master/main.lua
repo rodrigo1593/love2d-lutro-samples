@@ -35,12 +35,7 @@ do
   local _fn_0 = _base_0.draw
   lutro.draw = function(...)
 
-	--love.graphics.setMode(0, 0, false, false)
-	scrx = love.graphics.getWidth()
-	scry = love.graphics.getHeight()
-	love.graphics.push()
-	love.graphics.translate(scrx, scry)
-	love.graphics.scale(scrx/2, scry/2)
+--REMOVED THIS SH*T
     return _fn_0(_base_0, ...)
   end
 end
